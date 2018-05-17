@@ -1,0 +1,11 @@
+﻿
+
+//EFCORE - NO NEEDS
+
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package Microsoft.EntityFrameworkCore.Tools
+Install-Package Microsoft.VisualStudio.Web.CodeGeneration.Design
+
+
+//AutoMapper
+Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection
