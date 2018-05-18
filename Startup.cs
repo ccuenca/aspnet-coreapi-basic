@@ -21,7 +21,8 @@ namespace ConceptosService2
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<SiamContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Db")));
+            services.AddDbContext<SiamContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("Db")));
 
             services.AddTransient<IConceptosBL, ConceptosBL>();
 
